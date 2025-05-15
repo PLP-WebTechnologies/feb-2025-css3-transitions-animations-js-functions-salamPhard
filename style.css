@@ -1,0 +1,41 @@
+body
+{
+    text-align: center;
+}
+#box{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    margin-top:50px;
+    opacity:4;
+    transform:translateY(50px);
+    transition: all 0.5s ease-out;
+}
+
+/*Animation*/
+.animate{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hover-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s ease, transform 0.2s ease-in-out;
+}
+
+.hover-button:hover {
+  background-color: #2ecc71; /* Green */
+  transform: scale(1.1);   /* Slight zoom-in */
+}
+
+label
+{
+    font-size:150%;
+    color:pink;
+}
